@@ -10,24 +10,45 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/base.css">
-    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/base.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+
+    <script src="https://kit.fontawesome.com/a1a49f3d0a.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="main">
         <!-- HEADER -->
         <div class="header">
             <nav class="navbar grid">
-                <ul class="navlist">
-                    <li class="nav-item nav-item-seperate">Vào ứng dụng trên cửa hàng F8-Shop</li>
-                    <li class="nav-item">Kết nối</li>
+                <ul class="nav-list">
+                    <li class="nav-item nav-item-seperate">
+                        Vào ứng dụng trên cửa hàng F8-Shop
+                        <div class="qrcode-container">
+                            <img class="qrcode-img" src="/assets/img/qrcode.png" alt="QR code">
+                            <div class="download-link">
+                                <img class="download-link-img" src="/assets/img/googleplay.png" alt="Google Play">
+                                <img class="download-link-img" src="/assets/img/appstore.png" alt="App Store">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item nav-item--not-link">
+                        Kết nối
+                        <i class="fa-brands fa-square-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                    </li>
                 </ul>
-                <ul class="navlist">
+                <ul class="nav-list">
                     <li class="nav-item">
-                        <a href="">Thông báo</a>
+                        <a href="">
+                            <i class="fa-solid fa-bell"></i>
+                            Thông báo
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a href="">Trợ giúp</a>
+                        <a href="">
+                            <i class="fa-regular fa-circle-question"></i>
+                            Trợ giúp
+                        </a>
                     </li>
                     <li class="nav-item nav-item-bold nav-item-seperate">
                         <a href="">Đăng ký</a>
